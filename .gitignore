@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+
+# Embedding model files (large binaries / data)
+*.bin
+*.txt
+*.word2vec
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# OS
+Thumbs.db
+.DS_Store
