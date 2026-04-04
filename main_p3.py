@@ -56,7 +56,7 @@ def plot_tsne_comparison(glove_model, w2v_model, word_sets):
     plt.show()
 
 def main():
-    glove_path_100 = "wiki_giga_2024_100_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05.050_combined.txt"
+    glove_path_100 = "glove.2024.wikigiga.100d/wiki_giga_2024_100_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05.050_combined.txt"
     glove_model_100 = load_gloveE(glove_path_100)
     w2v_model = load_word2vec_100d()
 

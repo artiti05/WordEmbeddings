@@ -2,7 +2,8 @@ from utils import *
 
 def evaluate_analogies(models, tests, test_type="Semantic"):
     print(f"\n--- {test_type} Analogy Tests ---")
-    header = f"{'Test #':<8} | {'Test format':<40} | {'Expected':<15} | {f'{models.keys()[0]}':<15} | {f'{models.keys()[1]}':<15} | {f'{models.keys()[2]}':<15}"
+    model_names = list(models.keys())
+    header = f"{'Test #':<8} | {'Test format':<40} | {'Expected':<15} | {model_names[0]:<15} | {model_names[1]:<15} | {model_names[2]:<15}"
     print(header)
     print("-" * len(header))
 

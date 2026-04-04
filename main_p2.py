@@ -3,9 +3,9 @@ from tests import *
 
 
 def main():
-    glove_path_300 = "wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt"
-    glove_path_100 = "wiki_giga_2024_100_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05.050_combined.txt"
-    glove_path_50 = "wiki_giga_2024_50_MFT20_vectors_seed_123_alpha_0.75_eta_0.075_combined.txt"
+    glove_path_300 = "glove.2024.wikigiga.300d/wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt"
+    glove_path_100 = "glove.2024.wikigiga.100d/wiki_giga_2024_100_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05.050_combined.txt"
+    glove_path_50 = "glove.2024.wikigiga.50d/wiki_giga_2024_50_MFT20_vectors_seed_123_alpha_0.75_eta_0.075_combined.txt"
     print("Initiating Loaders.")
     try:
         glove_model_300 = load_gloveE(glove_path_300)

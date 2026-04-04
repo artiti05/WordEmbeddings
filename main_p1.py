@@ -2,7 +2,7 @@ from load_embeddings import *
 from tests import *
 
 def main():
-    glove_path = "wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt"
+    glove_path = "glove.2024.wikigiga.300d/wiki_giga_2024_300_MFT20_vectors_seed_2024_alpha_0.75_eta_0.05_combined.txt"
 
     print("Initiating Loaders.")
     try:
