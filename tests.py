@@ -30,15 +30,15 @@ def evaluate_analogies(models, tests, test_type="Semantic"):
 def semantic_test():
     semantic_tests = [
         ("nvidia", "gpu", "intel", "cpu"),
-        ("minecraft", "steve", "zelda", "link"),
+        ("drake", "kendrick", "tupac", "biggie"),
         ("sony", "playstation", "microsoft", "xbox"),
         ("brain", "neuron", "computer", "transistor"),
-        ("japan", "anime", "hollywood", "movie"),
+        ("anime", "japan", "kpop", "korea"),
         ("luffy", "onepiece", "goku", "dragonball"),
-        ("batman", "joker", "superman", "luthor"),
+        ("marvel", "avengers", "dc", "justiceleague"),
         ("germany", "hitler", "russia", "stalin"),
         ("jordan", "amman", "egypt", "cairo"),
-        ("sushi", "japan", "pizza", "italy")
+        ("kunafeh", "palestine", "masoub", "yemen")
     ]
     return semantic_tests
 def syntactic_test():
