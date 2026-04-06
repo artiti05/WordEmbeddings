@@ -30,30 +30,31 @@ def evaluate_analogies(models, tests, test_type="Semantic"):
     return stats
 def semantic_test():
     semantic_tests = [
-        ("nvidia", "gpu", "intel", "cpu"),
-        ("drake", "kendrick", "tupac", "biggie"),
-        ("sony", "playstation", "microsoft", "xbox"),
-        ("brain", "neuron", "computer", "transistor"),
-        ("anime", "japan", "kpop", "korea"),
-        ("luffy", "onepiece", "goku", "dragonball"),
-        ("marvel", "avengers", "dc", "justiceleague"),
-        ("germany", "hitler", "russia", "stalin"),
-        ("jordan", "amman", "egypt", "cairo"),
-        ("kunafeh", "palestine", "masoub", "yemen")
-    ]
+    ("poet", "poem", "novelist", "novel"),
+    ("director", "movie", "playwright", "play"),
+    ("composer", "music", "architect", "building"),
+    ("comedian", "joke", "magician", "trick"),
+
+    ("actor", "stage", "musician", "concert"),
+    ("ballet", "dance", "opera", "singing"),
+    ("choir", "voices", "orchestra", "instruments"),
+    ("jazz", "saxophone", "rock", "guitar"),
+    ("mozart", "piano", "paganini", "violin"),
+    ("rhyme", "poetry", "melody", "music")
+]
     return semantic_tests
 def syntactic_test():
     syntactic_tests = [
-        ("student", "students", "teacher", "teachers"),
-        ("play", "played", "watch", "watched"),
-        ("go", "went", "take", "took"),
-        ("run", "running", "swim", "swimming"),
-        ("tall", "taller", "short", "shorter"),
-        ("big", "biggest", "small", "smallest"),
-        ("smooth", "smoothly", "rough", "roughly"),
-        ("sun", "sunny", "cloud", "cloudy"),
-        ("eat", "eats", "sleep", "sleeps"),
-        ("teach", "teacher", "build", "builder")
+        ("rich", "richest", "poor", "poorest"),
+        ("heavy", "heaviest", "light", "lightest"),
+        ("smart", "smartest", "dumb", "dumbest"),
+        ("bright", "brightest", "dark", "darkest"),
+        ("hard", "hardest", "soft", "softest"),
+        ("good", "best", "bad", "worst"),
+        ("hard", "hardest", "soft", "softest"),
+        ("far", "farthest", "near", "nearest"),
+        ("easy", "easiest", "hard", "hardest"),
+        ("happy", "happiest", "sad", "saddest")
     ]
 
     return syntactic_tests
